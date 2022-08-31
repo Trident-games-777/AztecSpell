@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "494092633124",
+    "project_id": "aztec-spell-9f121",
+    "storage_bucket": "aztec-spell-9f121.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494092633124:android:a3392f86a47ee589db04b1",
+        "android_client_info": {
+          "package_name": "jp.co.ta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494092633124-8hughoo08ennm4ah9hpi163a6s4npumo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmneFBnCFeX7TGvbapOdhwDoA4RAytpRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494092633124-8hughoo08ennm4ah9hpi163a6s4npumo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

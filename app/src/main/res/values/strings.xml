@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Aztec Spell</string>
+    <string name="meta_fb_id">589296436241993</string>
+    <string name="meta_fb_token">d9c437eb0db1d8d6efe28b0ac745f14a</string>
+    <string name="play">Play</string>
+    <string name="image">Image</string>
+    <string name="go">Go</string>
+    <string name="coins">You have %1$s coins</string>
+    <string name="no_coins">You have no coins to play</string>
+    <string name="exit">Exit game</string>
+    <string name="new_game">New game</string>
+</resources>

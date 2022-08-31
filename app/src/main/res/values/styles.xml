@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Aztec.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/bog</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/icon_aztec</item>
+        <item name="postSplashScreenTheme">@style/Theme.AztecSpell</item>
+    </style>
+
+    <style name="ImageStyle">
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:layout_height">@dimen/image_size</item>
+        <item name="android:layout_width">@dimen/image_size</item>
+        <item name="android:src">@drawable/item1</item>
+        <item name="android:contentDescription">@string/image</item>
+    </style>
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aztec_casino_bg"
+    tools:context=".ui.fragments.AztecCasinoFragment">
+
+    <TextView
+        android:layout_marginBottom="30dp"
+        android:id="@+id/tvCoins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aztec_spell_regular"
+        android:text="@string/coins"
+        android:textColor="@color/stone_text_color"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/img2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/img1"
+        style="@style/ImageStyle"
+        app:layout_constraintBottom_toTopOf="@id/img4"
+        app:layout_constraintEnd_toStartOf="@id/img5"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/img2"
+        style="@style/ImageStyle"
+        app:layout_constraintBottom_toTopOf="@id/img4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/img3"
+        style="@style/ImageStyle"
+        app:layout_constraintBottom_toTopOf="@id/img4"
+        app:layout_constraintStart_toEndOf="@id/img5"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/img4"
+        style="@style/ImageStyle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/img5"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/img5"
+        style="@style/ImageStyle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/img6"
+        style="@style/ImageStyle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/img5"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/img7"
+        style="@style/ImageStyle"
+        app:layout_constraintEnd_toStartOf="@id/img5"
+        app:layout_constraintTop_toBottomOf="@id/img4"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/img8"
+        style="@style/ImageStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img4"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/img9"
+        style="@style/ImageStyle"
+        app:layout_constraintStart_toEndOf="@id/img5"
+        app:layout_constraintTop_toBottomOf="@id/img4"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/bog"
+        android:fontFamily="@font/aztec_spell_regular"
+        android:text="@string/go"
+        android:textAllCaps="false"
+        android:textColor="@color/stone_text_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img8" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
